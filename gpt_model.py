@@ -143,7 +143,7 @@ class GPTDecoder(nn.Module):
         Returns:
         None
         """
-        super(GPTModel, self).__init__()
+        super(GPTDecoder, self).__init__()
         self.embedding_size = embedding_size
         self.vocab_size = vocab_size
         self.context_size = context_size
